@@ -1,4 +1,4 @@
-﻿namespace RepositorySample
+﻿namespace RepositorySample.Domain
 {
     class RegistrationService
     {

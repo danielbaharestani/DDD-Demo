@@ -1,7 +1,0 @@
-﻿namespace RepositorySample
-{
-    class Studnet
-    {
-
-    }
-}

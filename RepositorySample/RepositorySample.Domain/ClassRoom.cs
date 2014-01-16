@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace RepositorySample
+namespace RepositorySample.Domain
 {
-    class ClassRoom
+   public  class ClassRoom
     {
         private readonly School school;
         private readonly string name;
