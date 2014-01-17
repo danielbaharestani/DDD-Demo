@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace RepositorySample.Domain
 {
@@ -17,8 +18,7 @@ namespace RepositorySample.Domain
             ClassRooms.Add(new ClassRoom(this, name));
         }
 
-
-        public List<ClassRoom> ClassRooms { get; protected internal set; }
+        public List<ClassRoom> ClassRooms { get; set; }
 
         public int ID { get { return id; } }
     }
